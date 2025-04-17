@@ -1,0 +1,11 @@
+Setup digunakan untuk precondition sebelum scenario utama dijalankan
+Teardwon digunakan sebagai postcondition setelah scenario utama dijalankan
+
+Misal : 
+setup -> buka apps, login, hit api
+
+Add to cart & checkout (product A)
+Add to cart & checkout (product B)
+Add to cart tapi gak checkout
+
+teardown -> logout, tutup apps, clear data, clear cache
